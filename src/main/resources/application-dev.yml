@@ -1,0 +1,6 @@
+logging:
+  config: classpath:log4j2.xml
+  level:
+    root: info
+    org.hibernate.SQL: debug # debug - SQL 로그 출력
+    org.hibernate.type: trace #mtrace - binding 변수 출력
